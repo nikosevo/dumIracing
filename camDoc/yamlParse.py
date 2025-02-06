@@ -4,6 +4,13 @@ import yaml
 import csv 
 
 
+### this will retrieve the information from the .ibt file, put em into a table to display, and export data into a excel
+##copy paste the ony the data you want into a txt cause i was bored to to make it ignore and find the right thing since this was only a short side quest 
+
+
+
+
+
 with open("cameras.txt", "r") as file:
     yaml_data = file.read()
 
