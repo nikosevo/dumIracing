@@ -24,7 +24,7 @@ if __name__ == '__main__':
 
     try:
         while True:
-            check_iracing()
+            # check_iracing()
 
             if state.ir_connected:
                 loop()
