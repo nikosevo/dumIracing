@@ -1,4 +1,4 @@
-CameraInfo:
+
  Groups:
  - GroupNum: 1
    GroupName: Nose
