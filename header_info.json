@@ -1,0 +1,1658 @@
+{
+    "SessionTime": {
+        "type": 5,
+        "count": 1,
+        "offset": 0,
+        "description": "Seconds since session start"
+    },
+    "SessionTick": {
+        "type": 2,
+        "count": 1,
+        "offset": 8,
+        "description": "Current update number"
+    },
+    "SessionNum": {
+        "type": 2,
+        "count": 1,
+        "offset": 12,
+        "description": "Session number"
+    },
+    "SessionState": {
+        "type": 2,
+        "count": 1,
+        "offset": 16,
+        "description": "Session state"
+    },
+    "SessionUniqueID": {
+        "type": 2,
+        "count": 1,
+        "offset": 20,
+        "description": "Session ID"
+    },
+    "SessionFlags": {
+        "type": 3,
+        "count": 1,
+        "offset": 24,
+        "description": "Session flags"
+    },
+    "SessionTimeRemain": {
+        "type": 5,
+        "count": 1,
+        "offset": 28,
+        "description": "Seconds left till session ends"
+    },
+    "SessionLapsRemain": {
+        "type": 2,
+        "count": 1,
+        "offset": 36,
+        "description": "Old laps left till session ends use SessionLapsRemainEx"
+    },
+    "SessionLapsRemainEx": {
+        "type": 2,
+        "count": 1,
+        "offset": 40,
+        "description": "New improved laps left till session ends"
+    },
+    "SessionTimeTotal": {
+        "type": 5,
+        "count": 1,
+        "offset": 44,
+        "description": "Total number of seconds in session"
+    },
+    "SessionLapsTotal": {
+        "type": 2,
+        "count": 1,
+        "offset": 52,
+        "description": "Total number of laps in session"
+    },
+    "SessionJokerLapsRemain": {
+        "type": 2,
+        "count": 1,
+        "offset": 56,
+        "description": "Joker laps remaining to be taken"
+    },
+    "SessionOnJokerLap": {
+        "type": 1,
+        "count": 1,
+        "offset": 60,
+        "description": "Player is currently completing a joker lap"
+    },
+    "SessionTimeOfDay": {
+        "type": 4,
+        "count": 1,
+        "offset": 61,
+        "description": "Time of day in seconds"
+    },
+    "DriverMarker": {
+        "type": 1,
+        "count": 1,
+        "offset": 65,
+        "description": "Driver activated flag"
+    },
+    "PushToTalk": {
+        "type": 1,
+        "count": 1,
+        "offset": 66,
+        "description": "Push to talk button state"
+    },
+    "PushToPass": {
+        "type": 1,
+        "count": 1,
+        "offset": 67,
+        "description": "Push to pass button state"
+    },
+    "ManualBoost": {
+        "type": 1,
+        "count": 1,
+        "offset": 68,
+        "description": "Hybrid manual boost state"
+    },
+    "ManualNoBoost": {
+        "type": 1,
+        "count": 1,
+        "offset": 69,
+        "description": "Hybrid manual no boost state"
+    },
+    "IsOnTrack": {
+        "type": 1,
+        "count": 1,
+        "offset": 70,
+        "description": "1=Car on track physics running with player in car"
+    },
+    "FrameRate": {
+        "type": 4,
+        "count": 1,
+        "offset": 71,
+        "description": "Average frames per second"
+    },
+    "CpuUsageFG": {
+        "type": 4,
+        "count": 1,
+        "offset": 75,
+        "description": "Percent of available tim fg thread took with a 1 sec avg"
+    },
+    "GpuUsage": {
+        "type": 4,
+        "count": 1,
+        "offset": 79,
+        "description": "Percent of available tim gpu took with a 1 sec avg"
+    },
+    "ChanAvgLatency": {
+        "type": 4,
+        "count": 1,
+        "offset": 83,
+        "description": "Communications average latency"
+    },
+    "ChanLatency": {
+        "type": 4,
+        "count": 1,
+        "offset": 87,
+        "description": "Communications latency"
+    },
+    "ChanQuality": {
+        "type": 4,
+        "count": 1,
+        "offset": 91,
+        "description": "Communications quality"
+    },
+    "ChanPartnerQuality": {
+        "type": 4,
+        "count": 1,
+        "offset": 95,
+        "description": "Partner communications quality"
+    },
+    "CpuUsageBG": {
+        "type": 4,
+        "count": 1,
+        "offset": 99,
+        "description": "Percent of available tim bg thread took with a 1 sec avg"
+    },
+    "ChanClockSkew": {
+        "type": 4,
+        "count": 1,
+        "offset": 103,
+        "description": "Communications server clock skew"
+    },
+    "MemPageFaultSec": {
+        "type": 4,
+        "count": 1,
+        "offset": 107,
+        "description": "Memory page faults per second"
+    },
+    "MemSoftPageFaultSec": {
+        "type": 4,
+        "count": 1,
+        "offset": 111,
+        "description": "Memory soft page faults per second"
+    },
+    "PlayerCarPosition": {
+        "type": 2,
+        "count": 1,
+        "offset": 115,
+        "description": "Players position in race"
+    },
+    "PlayerCarClassPosition": {
+        "type": 2,
+        "count": 1,
+        "offset": 119,
+        "description": "Players class position in race"
+    },
+    "PlayerCarClass": {
+        "type": 2,
+        "count": 1,
+        "offset": 123,
+        "description": "Player car class id"
+    },
+    "PlayerTrackSurface": {
+        "type": 2,
+        "count": 1,
+        "offset": 127,
+        "description": "Players car track surface type"
+    },
+    "PlayerTrackSurfaceMaterial": {
+        "type": 2,
+        "count": 1,
+        "offset": 131,
+        "description": "Players car track surface material type"
+    },
+    "PlayerCarIdx": {
+        "type": 2,
+        "count": 1,
+        "offset": 135,
+        "description": "Players carIdx"
+    },
+    "PlayerCarTeamIncidentCount": {
+        "type": 2,
+        "count": 1,
+        "offset": 139,
+        "description": "Players team incident count for this session"
+    },
+    "PlayerCarMyIncidentCount": {
+        "type": 2,
+        "count": 1,
+        "offset": 143,
+        "description": "Players own incident count for this session"
+    },
+    "PlayerCarDriverIncidentCount": {
+        "type": 2,
+        "count": 1,
+        "offset": 147,
+        "description": "Teams current drivers incident count for this session"
+    },
+    "PlayerCarWeightPenalty": {
+        "type": 4,
+        "count": 1,
+        "offset": 151,
+        "description": "Players weight penalty"
+    },
+    "PlayerCarPowerAdjust": {
+        "type": 4,
+        "count": 1,
+        "offset": 155,
+        "description": "Players power adjust"
+    },
+    "PlayerCarDryTireSetLimit": {
+        "type": 2,
+        "count": 1,
+        "offset": 159,
+        "description": "Players dry tire set limit"
+    },
+    "PlayerCarTowTime": {
+        "type": 4,
+        "count": 1,
+        "offset": 163,
+        "description": "Players car is being towed if time is greater than zero"
+    },
+    "PlayerCarInPitStall": {
+        "type": 1,
+        "count": 1,
+        "offset": 167,
+        "description": "Players car is properly in their pitstall"
+    },
+    "PlayerCarPitSvStatus": {
+        "type": 2,
+        "count": 1,
+        "offset": 168,
+        "description": "Players car pit service status bits"
+    },
+    "PlayerTireCompound": {
+        "type": 2,
+        "count": 1,
+        "offset": 172,
+        "description": "Players car current tire compound"
+    },
+    "PlayerFastRepairsUsed": {
+        "type": 2,
+        "count": 1,
+        "offset": 176,
+        "description": "Players car number of fast repairs used"
+    },
+    "PaceMode": {
+        "type": 2,
+        "count": 1,
+        "offset": 180,
+        "description": "Are we pacing or not"
+    },
+    "OnPitRoad": {
+        "type": 1,
+        "count": 1,
+        "offset": 184,
+        "description": "Is the player car on pit road between the cones"
+    },
+    "SteeringWheelAngle": {
+        "type": 4,
+        "count": 1,
+        "offset": 185,
+        "description": "Steering wheel angle"
+    },
+    "Throttle": {
+        "type": 4,
+        "count": 1,
+        "offset": 189,
+        "description": "0=off throttle to 1=full throttle"
+    },
+    "Brake": {
+        "type": 4,
+        "count": 1,
+        "offset": 193,
+        "description": "0=brake released to 1=max pedal force"
+    },
+    "Clutch": {
+        "type": 4,
+        "count": 1,
+        "offset": 197,
+        "description": "0=disengaged to 1=fully engaged"
+    },
+    "Gear": {
+        "type": 2,
+        "count": 1,
+        "offset": 201,
+        "description": "-1=reverse  0=neutral  1..n=current gear"
+    },
+    "RPM": {
+        "type": 4,
+        "count": 1,
+        "offset": 205,
+        "description": "Engine rpm"
+    },
+    "Lap": {
+        "type": 2,
+        "count": 1,
+        "offset": 209,
+        "description": "Laps started count"
+    },
+    "LapCompleted": {
+        "type": 2,
+        "count": 1,
+        "offset": 213,
+        "description": "Laps completed count"
+    },
+    "LapDist": {
+        "type": 4,
+        "count": 1,
+        "offset": 217,
+        "description": "Meters traveled from S/F this lap"
+    },
+    "LapDistPct": {
+        "type": 4,
+        "count": 1,
+        "offset": 221,
+        "description": "Percentage distance around lap"
+    },
+    "CarDistAhead": {
+        "type": 4,
+        "count": 1,
+        "offset": 225,
+        "description": "Distance to first car in front of player in meters"
+    },
+    "CarDistBehind": {
+        "type": 4,
+        "count": 1,
+        "offset": 229,
+        "description": "Distance to first car behind player in meters"
+    },
+    "LapBestLap": {
+        "type": 2,
+        "count": 1,
+        "offset": 233,
+        "description": "Players best lap number"
+    },
+    "LapBestLapTime": {
+        "type": 4,
+        "count": 1,
+        "offset": 237,
+        "description": "Players best lap time"
+    },
+    "LapLastLapTime": {
+        "type": 4,
+        "count": 1,
+        "offset": 241,
+        "description": "Players last lap time"
+    },
+    "LapCurrentLapTime": {
+        "type": 4,
+        "count": 1,
+        "offset": 245,
+        "description": "Estimate of players current lap time as shown in F3 box"
+    },
+    "LapLasNLapSeq": {
+        "type": 2,
+        "count": 1,
+        "offset": 249,
+        "description": "Player num consecutive clean laps completed for N average"
+    },
+    "LapLastNLapTime": {
+        "type": 4,
+        "count": 1,
+        "offset": 253,
+        "description": "Player last N average lap time"
+    },
+    "LapBestNLapLap": {
+        "type": 2,
+        "count": 1,
+        "offset": 257,
+        "description": "Player last lap in best N average lap time"
+    },
+    "LapBestNLapTime": {
+        "type": 4,
+        "count": 1,
+        "offset": 261,
+        "description": "Player best N average lap time"
+    },
+    "LapDeltaToBestLap": {
+        "type": 4,
+        "count": 1,
+        "offset": 265,
+        "description": "Delta time for best lap"
+    },
+    "LapDeltaToBestLap_DD": {
+        "type": 4,
+        "count": 1,
+        "offset": 269,
+        "description": "Rate of change of delta time for best lap"
+    },
+    "LapDeltaToBestLap_OK": {
+        "type": 1,
+        "count": 1,
+        "offset": 273,
+        "description": "Delta time for best lap is valid"
+    },
+    "LapDeltaToOptimalLap": {
+        "type": 4,
+        "count": 1,
+        "offset": 274,
+        "description": "Delta time for optimal lap"
+    },
+    "LapDeltaToOptimalLap_DD": {
+        "type": 4,
+        "count": 1,
+        "offset": 278,
+        "description": "Rate of change of delta time for optimal lap"
+    },
+    "LapDeltaToOptimalLap_OK": {
+        "type": 1,
+        "count": 1,
+        "offset": 282,
+        "description": "Delta time for optimal lap is valid"
+    },
+    "LapDeltaToSessionBestLap": {
+        "type": 4,
+        "count": 1,
+        "offset": 283,
+        "description": "Delta time for session best lap"
+    },
+    "LapDeltaToSessionBestLap_DD": {
+        "type": 4,
+        "count": 1,
+        "offset": 287,
+        "description": "Rate of change of delta time for session best lap"
+    },
+    "LapDeltaToSessionBestLap_OK": {
+        "type": 1,
+        "count": 1,
+        "offset": 291,
+        "description": "Delta time for session best lap is valid"
+    },
+    "LapDeltaToSessionOptimalLap": {
+        "type": 4,
+        "count": 1,
+        "offset": 292,
+        "description": "Delta time for session optimal lap"
+    },
+    "LapDeltaToSessionOptimalLap_DD": {
+        "type": 4,
+        "count": 1,
+        "offset": 296,
+        "description": "Rate of change of delta time for session optimal lap"
+    },
+    "LapDeltaToSessionOptimalLap_OK": {
+        "type": 1,
+        "count": 1,
+        "offset": 300,
+        "description": "Delta time for session optimal lap is valid"
+    },
+    "LapDeltaToSessionLastlLap": {
+        "type": 4,
+        "count": 1,
+        "offset": 301,
+        "description": "Delta time for session last lap"
+    },
+    "LapDeltaToSessionLastlLap_DD": {
+        "type": 4,
+        "count": 1,
+        "offset": 305,
+        "description": "Rate of change of delta time for session last lap"
+    },
+    "LapDeltaToSessionLastlLap_OK": {
+        "type": 1,
+        "count": 1,
+        "offset": 309,
+        "description": "Delta time for session last lap is valid"
+    },
+    "Speed": {
+        "type": 4,
+        "count": 1,
+        "offset": 310,
+        "description": "GPS vehicle speed"
+    },
+    "Yaw": {
+        "type": 4,
+        "count": 1,
+        "offset": 314,
+        "description": "Yaw orientation"
+    },
+    "YawNorth": {
+        "type": 4,
+        "count": 1,
+        "offset": 318,
+        "description": "Yaw orientation relative to north"
+    },
+    "Pitch": {
+        "type": 4,
+        "count": 1,
+        "offset": 322,
+        "description": "Pitch orientation"
+    },
+    "Roll": {
+        "type": 4,
+        "count": 1,
+        "offset": 326,
+        "description": "Roll orientation"
+    },
+    "EnterExitReset": {
+        "type": 2,
+        "count": 1,
+        "offset": 330,
+        "description": "Indicate action the reset key will take 0 enter 1 exit 2 reset"
+    },
+    "Lat": {
+        "type": 5,
+        "count": 1,
+        "offset": 334,
+        "description": "Latitude in decimal degrees"
+    },
+    "Lon": {
+        "type": 5,
+        "count": 1,
+        "offset": 342,
+        "description": "Longitude in decimal degrees"
+    },
+    "Alt": {
+        "type": 4,
+        "count": 1,
+        "offset": 350,
+        "description": "Altitude in meters"
+    },
+    "TrackTemp": {
+        "type": 4,
+        "count": 1,
+        "offset": 354,
+        "description": "Deprecated  set to TrackTempCrew"
+    },
+    "TrackTempCrew": {
+        "type": 4,
+        "count": 1,
+        "offset": 358,
+        "description": "Temperature of track measured by crew around track"
+    },
+    "AirTemp": {
+        "type": 4,
+        "count": 1,
+        "offset": 362,
+        "description": "Temperature of air at start/finish line"
+    },
+    "TrackWetness": {
+        "type": 2,
+        "count": 1,
+        "offset": 366,
+        "description": "How wet is the average track surface"
+    },
+    "Skies": {
+        "type": 2,
+        "count": 1,
+        "offset": 370,
+        "description": "Skies (0=clear/1=p cloudy/2=m cloudy/3=overcast)"
+    },
+    "AirDensity": {
+        "type": 4,
+        "count": 1,
+        "offset": 374,
+        "description": "Density of air at start/finish line"
+    },
+    "AirPressure": {
+        "type": 4,
+        "count": 1,
+        "offset": 378,
+        "description": "Pressure of air at start/finish line"
+    },
+    "WindVel": {
+        "type": 4,
+        "count": 1,
+        "offset": 382,
+        "description": "Wind velocity at start/finish line"
+    },
+    "WindDir": {
+        "type": 4,
+        "count": 1,
+        "offset": 386,
+        "description": "Wind direction at start/finish line"
+    },
+    "RelativeHumidity": {
+        "type": 4,
+        "count": 1,
+        "offset": 390,
+        "description": "Relative Humidity at start/finish line"
+    },
+    "FogLevel": {
+        "type": 4,
+        "count": 1,
+        "offset": 394,
+        "description": "Fog level at start/finish line"
+    },
+    "Precipitation": {
+        "type": 4,
+        "count": 1,
+        "offset": 398,
+        "description": "Precipitation at start/finish line"
+    },
+    "SolarAltitude": {
+        "type": 4,
+        "count": 1,
+        "offset": 402,
+        "description": "Sun angle above horizon in radians"
+    },
+    "SolarAzimuth": {
+        "type": 4,
+        "count": 1,
+        "offset": 406,
+        "description": "Sun angle clockwise from north in radians"
+    },
+    "WeatherDeclaredWet": {
+        "type": 1,
+        "count": 1,
+        "offset": 410,
+        "description": "The steward says rain tires can be used"
+    },
+    "PitsOpen": {
+        "type": 1,
+        "count": 1,
+        "offset": 411,
+        "description": "True if pit stop is allowed for the current player"
+    },
+    "PitRepairLeft": {
+        "type": 4,
+        "count": 1,
+        "offset": 412,
+        "description": "Time left for mandatory pit repairs if repairs are active"
+    },
+    "PitOptRepairLeft": {
+        "type": 4,
+        "count": 1,
+        "offset": 416,
+        "description": "Time left for optional repairs if repairs are active"
+    },
+    "PitstopActive": {
+        "type": 1,
+        "count": 1,
+        "offset": 420,
+        "description": "Is the player getting pit stop service"
+    },
+    "FastRepairUsed": {
+        "type": 2,
+        "count": 1,
+        "offset": 421,
+        "description": "How many fast repairs used so far"
+    },
+    "FastRepairAvailable": {
+        "type": 2,
+        "count": 1,
+        "offset": 425,
+        "description": "How many fast repairs left  255 is unlimited"
+    },
+    "LFTiresUsed": {
+        "type": 2,
+        "count": 1,
+        "offset": 429,
+        "description": "How many left front tires used so far"
+    },
+    "RFTiresUsed": {
+        "type": 2,
+        "count": 1,
+        "offset": 433,
+        "description": "How many right front tires used so far"
+    },
+    "LRTiresUsed": {
+        "type": 2,
+        "count": 1,
+        "offset": 437,
+        "description": "How many left rear tires used so far"
+    },
+    "RRTiresUsed": {
+        "type": 2,
+        "count": 1,
+        "offset": 441,
+        "description": "How many right rear tires used so far"
+    },
+    "LeftTireSetsUsed": {
+        "type": 2,
+        "count": 1,
+        "offset": 445,
+        "description": "How many left tire sets used so far"
+    },
+    "RightTireSetsUsed": {
+        "type": 2,
+        "count": 1,
+        "offset": 449,
+        "description": "How many right tire sets used so far"
+    },
+    "FrontTireSetsUsed": {
+        "type": 2,
+        "count": 1,
+        "offset": 453,
+        "description": "How many front tire sets used so far"
+    },
+    "RearTireSetsUsed": {
+        "type": 2,
+        "count": 1,
+        "offset": 457,
+        "description": "How many rear tire sets used so far"
+    },
+    "TireSetsUsed": {
+        "type": 2,
+        "count": 1,
+        "offset": 461,
+        "description": "How many tire sets used so far"
+    },
+    "LFTiresAvailable": {
+        "type": 2,
+        "count": 1,
+        "offset": 465,
+        "description": "How many left front tires are remaining  255 is unlimited"
+    },
+    "RFTiresAvailable": {
+        "type": 2,
+        "count": 1,
+        "offset": 469,
+        "description": "How many right front tires are remaining  255 is unlimited"
+    },
+    "LRTiresAvailable": {
+        "type": 2,
+        "count": 1,
+        "offset": 473,
+        "description": "How many left rear tires are remaining  255 is unlimited"
+    },
+    "RRTiresAvailable": {
+        "type": 2,
+        "count": 1,
+        "offset": 477,
+        "description": "How many right rear tires are remaining  255 is unlimited"
+    },
+    "LeftTireSetsAvailable": {
+        "type": 2,
+        "count": 1,
+        "offset": 481,
+        "description": "How many left tire sets are remaining  255 is unlimited"
+    },
+    "RightTireSetsAvailable": {
+        "type": 2,
+        "count": 1,
+        "offset": 485,
+        "description": "How many right tire sets are remaining  255 is unlimited"
+    },
+    "FrontTireSetsAvailable": {
+        "type": 2,
+        "count": 1,
+        "offset": 489,
+        "description": "How many front tire sets are remaining  255 is unlimited"
+    },
+    "RearTireSetsAvailable": {
+        "type": 2,
+        "count": 1,
+        "offset": 493,
+        "description": "How many rear tire sets are remaining  255 is unlimited"
+    },
+    "TireSetsAvailable": {
+        "type": 2,
+        "count": 1,
+        "offset": 497,
+        "description": "How many tire sets are remaining  255 is unlimited"
+    },
+    "IsOnTrackCar": {
+        "type": 1,
+        "count": 1,
+        "offset": 501,
+        "description": "1=Car on track physics running"
+    },
+    "SteeringWheelAngleMax": {
+        "type": 4,
+        "count": 1,
+        "offset": 502,
+        "description": "Steering wheel max angle"
+    },
+    "ShiftPowerPct": {
+        "type": 4,
+        "count": 1,
+        "offset": 506,
+        "description": "Friction torque applied to gears when shifting or grinding"
+    },
+    "ShiftGrindRPM": {
+        "type": 4,
+        "count": 1,
+        "offset": 510,
+        "description": "RPM of shifter grinding noise"
+    },
+    "ThrottleRaw": {
+        "type": 4,
+        "count": 1,
+        "offset": 514,
+        "description": "Raw throttle input 0=off throttle to 1=full throttle"
+    },
+    "BrakeRaw": {
+        "type": 4,
+        "count": 1,
+        "offset": 518,
+        "description": "Raw brake input 0=brake released to 1=max pedal force"
+    },
+    "ClutchRaw": {
+        "type": 4,
+        "count": 1,
+        "offset": 522,
+        "description": "Raw clutch input 0=disengaged to 1=fully engaged"
+    },
+    "HandbrakeRaw": {
+        "type": 4,
+        "count": 1,
+        "offset": 526,
+        "description": "Raw handbrake input 0=handbrake released to 1=max force"
+    },
+    "BrakeABSactive": {
+        "type": 1,
+        "count": 1,
+        "offset": 530,
+        "description": "true if abs is currently reducing brake force pressure"
+    },
+    "BrakeABScutPct": {
+        "type": 4,
+        "count": 1,
+        "offset": 531,
+        "description": "Percent of brake force reduction caused by ABS system"
+    },
+    "EngineWarnings": {
+        "type": 3,
+        "count": 1,
+        "offset": 535,
+        "description": "Bitfield for warning lights"
+    },
+    "FuelLevelPct": {
+        "type": 4,
+        "count": 1,
+        "offset": 539,
+        "description": "Percent fuel remaining"
+    },
+    "PitSvFlags": {
+        "type": 3,
+        "count": 1,
+        "offset": 543,
+        "description": "Bitfield of pit service checkboxes"
+    },
+    "PitSvLFP": {
+        "type": 4,
+        "count": 1,
+        "offset": 547,
+        "description": "Pit service left front tire pressure"
+    },
+    "PitSvRFP": {
+        "type": 4,
+        "count": 1,
+        "offset": 551,
+        "description": "Pit service right front tire pressure"
+    },
+    "PitSvLRP": {
+        "type": 4,
+        "count": 1,
+        "offset": 555,
+        "description": "Pit service left rear tire pressure"
+    },
+    "PitSvRRP": {
+        "type": 4,
+        "count": 1,
+        "offset": 559,
+        "description": "Pit service right rear tire pressure"
+    },
+    "PitSvFuel": {
+        "type": 4,
+        "count": 1,
+        "offset": 563,
+        "description": "Pit service fuel add amount"
+    },
+    "PitSvTireCompound": {
+        "type": 2,
+        "count": 1,
+        "offset": 567,
+        "description": "Pit service pending tire compound"
+    },
+    "P2P_Status": {
+        "type": 1,
+        "count": 1,
+        "offset": 571,
+        "description": "Push2Pass active or not on your car"
+    },
+    "P2P_Count": {
+        "type": 2,
+        "count": 1,
+        "offset": 572,
+        "description": "Push2Pass count of usage (or remaining in Race) on your car"
+    },
+    "SteeringWheelPctTorque": {
+        "type": 4,
+        "count": 1,
+        "offset": 576,
+        "description": "Force feedback % max torque on steering shaft unsigned"
+    },
+    "SteeringWheelPctTorqueSign": {
+        "type": 4,
+        "count": 1,
+        "offset": 580,
+        "description": "Force feedback % max torque on steering shaft signed"
+    },
+    "SteeringWheelPctTorqueSignStops": {
+        "type": 4,
+        "count": 1,
+        "offset": 584,
+        "description": "Force feedback % max torque on steering shaft signed stops"
+    },
+    "SteeringWheelPctIntensity": {
+        "type": 4,
+        "count": 1,
+        "offset": 588,
+        "description": "Force feedback % max intensity"
+    },
+    "SteeringWheelPctSmoothing": {
+        "type": 4,
+        "count": 1,
+        "offset": 592,
+        "description": "Force feedback % max smoothing"
+    },
+    "SteeringWheelPctDamper": {
+        "type": 4,
+        "count": 1,
+        "offset": 596,
+        "description": "Force feedback % max damping"
+    },
+    "SteeringWheelLimiter": {
+        "type": 4,
+        "count": 1,
+        "offset": 600,
+        "description": "Force feedback limiter strength limits impacts and oscillation"
+    },
+    "SteeringWheelMaxForceNm": {
+        "type": 4,
+        "count": 1,
+        "offset": 604,
+        "description": "Value of strength or max force slider in Nm for FFB"
+    },
+    "SteeringWheelUseLinear": {
+        "type": 1,
+        "count": 1,
+        "offset": 608,
+        "description": "True if steering wheel force is using linear mode"
+    },
+    "ShiftIndicatorPct": {
+        "type": 4,
+        "count": 1,
+        "offset": 609,
+        "description": "DEPRECATED use DriverCarSLBlinkRPM instead"
+    },
+    "TireLF_RumblePitch": {
+        "type": 4,
+        "count": 1,
+        "offset": 613,
+        "description": "Players LF Tire Sound rumblestrip pitch"
+    },
+    "TireRF_RumblePitch": {
+        "type": 4,
+        "count": 1,
+        "offset": 617,
+        "description": "Players RF Tire Sound rumblestrip pitch"
+    },
+    "TireLR_RumblePitch": {
+        "type": 4,
+        "count": 1,
+        "offset": 621,
+        "description": "Players LR Tire Sound rumblestrip pitch"
+    },
+    "TireRR_RumblePitch": {
+        "type": 4,
+        "count": 1,
+        "offset": 625,
+        "description": "Players RR Tire Sound rumblestrip pitch"
+    },
+    "SteeringWheelTorque_ST": {
+        "type": 4,
+        "count": 6,
+        "offset": 629,
+        "description": "Output torque on steering shaft at 360 Hz"
+    },
+    "SteeringWheelTorque": {
+        "type": 4,
+        "count": 1,
+        "offset": 653,
+        "description": "Output torque on steering shaft"
+    },
+    "VelocityZ": {
+        "type": 4,
+        "count": 1,
+        "offset": 657,
+        "description": "Z velocity"
+    },
+    "VelocityY": {
+        "type": 4,
+        "count": 1,
+        "offset": 661,
+        "description": "Y velocity"
+    },
+    "VelocityX": {
+        "type": 4,
+        "count": 1,
+        "offset": 665,
+        "description": "X velocity"
+    },
+    "YawRate": {
+        "type": 4,
+        "count": 1,
+        "offset": 669,
+        "description": "Yaw rate"
+    },
+    "PitchRate": {
+        "type": 4,
+        "count": 1,
+        "offset": 673,
+        "description": "Pitch rate"
+    },
+    "RollRate": {
+        "type": 4,
+        "count": 1,
+        "offset": 677,
+        "description": "Roll rate"
+    },
+    "VertAccel": {
+        "type": 4,
+        "count": 1,
+        "offset": 681,
+        "description": "Vertical acceleration (including gravity)"
+    },
+    "LatAccel": {
+        "type": 4,
+        "count": 1,
+        "offset": 685,
+        "description": "Lateral acceleration (including gravity)"
+    },
+    "LongAccel": {
+        "type": 4,
+        "count": 1,
+        "offset": 689,
+        "description": "Longitudinal acceleration (including gravity)"
+    },
+    "dcStarter": {
+        "type": 1,
+        "count": 1,
+        "offset": 693,
+        "description": "In car trigger car starter"
+    },
+    "dcTractionControlToggle": {
+        "type": 1,
+        "count": 1,
+        "offset": 694,
+        "description": "In car traction control active"
+    },
+    "dcPitSpeedLimiterToggle": {
+        "type": 1,
+        "count": 1,
+        "offset": 695,
+        "description": "In car traction control active"
+    },
+    "dcHeadlightFlash": {
+        "type": 1,
+        "count": 1,
+        "offset": 696,
+        "description": "In car headlight flash control active"
+    },
+    "dpRFTireChange": {
+        "type": 4,
+        "count": 1,
+        "offset": 697,
+        "description": "Pitstop rf tire change request"
+    },
+    "dpLFTireChange": {
+        "type": 4,
+        "count": 1,
+        "offset": 701,
+        "description": "Pitstop lf tire change request"
+    },
+    "dpRRTireChange": {
+        "type": 4,
+        "count": 1,
+        "offset": 705,
+        "description": "Pitstop rr tire change request"
+    },
+    "dpLRTireChange": {
+        "type": 4,
+        "count": 1,
+        "offset": 709,
+        "description": "Pitstop lr tire change request"
+    },
+    "dpFuelFill": {
+        "type": 4,
+        "count": 1,
+        "offset": 713,
+        "description": "Pitstop fuel fill flag"
+    },
+    "dpWindshieldTearoff": {
+        "type": 4,
+        "count": 1,
+        "offset": 717,
+        "description": "Pitstop windshield tearoff"
+    },
+    "dpFuelAddKg": {
+        "type": 4,
+        "count": 1,
+        "offset": 721,
+        "description": "Pitstop fuel add amount"
+    },
+    "dpFastRepair": {
+        "type": 4,
+        "count": 1,
+        "offset": 725,
+        "description": "Pitstop fast repair set"
+    },
+    "dpLFTireColdPress": {
+        "type": 4,
+        "count": 1,
+        "offset": 729,
+        "description": "Pitstop lf tire cold pressure adjustment"
+    },
+    "dpRFTireColdPress": {
+        "type": 4,
+        "count": 1,
+        "offset": 733,
+        "description": "Pitstop rf cold tire pressure adjustment"
+    },
+    "dpLRTireColdPress": {
+        "type": 4,
+        "count": 1,
+        "offset": 737,
+        "description": "Pitstop lr tire cold pressure adjustment"
+    },
+    "dpRRTireColdPress": {
+        "type": 4,
+        "count": 1,
+        "offset": 741,
+        "description": "Pitstop rr cold tire pressure adjustment"
+    },
+    "dcBrakeBias": {
+        "type": 4,
+        "count": 1,
+        "offset": 745,
+        "description": "In car brake bias adjustment"
+    },
+    "dpFuelAutoFillEnabled": {
+        "type": 4,
+        "count": 1,
+        "offset": 749,
+        "description": "Pitstop auto fill fuel system enabled"
+    },
+    "dpFuelAutoFillActive": {
+        "type": 4,
+        "count": 1,
+        "offset": 753,
+        "description": "Pitstop auto fill fuel next stop flag"
+    },
+    "dcToggleWindshieldWipers": {
+        "type": 1,
+        "count": 1,
+        "offset": 757,
+        "description": "In car turn wipers on or off"
+    },
+    "dcTriggerWindshieldWipers": {
+        "type": 1,
+        "count": 1,
+        "offset": 758,
+        "description": "In car momentarily turn on wipers"
+    },
+    "FuelUsePerHour": {
+        "type": 4,
+        "count": 1,
+        "offset": 759,
+        "description": "Engine fuel used instantaneous"
+    },
+    "Voltage": {
+        "type": 4,
+        "count": 1,
+        "offset": 763,
+        "description": "Engine voltage"
+    },
+    "WaterTemp": {
+        "type": 4,
+        "count": 1,
+        "offset": 767,
+        "description": "Engine coolant temp"
+    },
+    "WaterLevel": {
+        "type": 4,
+        "count": 1,
+        "offset": 771,
+        "description": "Engine coolant level"
+    },
+    "FuelPress": {
+        "type": 4,
+        "count": 1,
+        "offset": 775,
+        "description": "Engine fuel pressure"
+    },
+    "OilTemp": {
+        "type": 4,
+        "count": 1,
+        "offset": 779,
+        "description": "Engine oil temperature"
+    },
+    "OilPress": {
+        "type": 4,
+        "count": 1,
+        "offset": 783,
+        "description": "Engine oil pressure"
+    },
+    "OilLevel": {
+        "type": 4,
+        "count": 1,
+        "offset": 787,
+        "description": "Engine oil level"
+    },
+    "ManifoldPress": {
+        "type": 4,
+        "count": 1,
+        "offset": 791,
+        "description": "Engine manifold pressure"
+    },
+    "FuelLevel": {
+        "type": 4,
+        "count": 1,
+        "offset": 795,
+        "description": "Liters of fuel remaining"
+    },
+    "Engine0_RPM": {
+        "type": 4,
+        "count": 1,
+        "offset": 799,
+        "description": "Engine0Engine rpm"
+    },
+    "RFbrakeLinePress": {
+        "type": 4,
+        "count": 1,
+        "offset": 803,
+        "description": "RF brake line pressure"
+    },
+    "RFspeed": {
+        "type": 4,
+        "count": 1,
+        "offset": 807,
+        "description": "RF wheel speed"
+    },
+    "RFpressure": {
+        "type": 4,
+        "count": 1,
+        "offset": 811,
+        "description": "RF tire pressure"
+    },
+    "RFcoldPressure": {
+        "type": 4,
+        "count": 1,
+        "offset": 815,
+        "description": "RF tire cold pressure  as set in the garage"
+    },
+    "RFtempL": {
+        "type": 4,
+        "count": 1,
+        "offset": 819,
+        "description": "RF tire left surface temperature"
+    },
+    "RFtempM": {
+        "type": 4,
+        "count": 1,
+        "offset": 823,
+        "description": "RF tire middle surface temperature"
+    },
+    "RFtempR": {
+        "type": 4,
+        "count": 1,
+        "offset": 827,
+        "description": "RF tire right surface temperature"
+    },
+    "RFtempCL": {
+        "type": 4,
+        "count": 1,
+        "offset": 831,
+        "description": "RF tire left carcass temperature"
+    },
+    "RFtempCM": {
+        "type": 4,
+        "count": 1,
+        "offset": 835,
+        "description": "RF tire middle carcass temperature"
+    },
+    "RFtempCR": {
+        "type": 4,
+        "count": 1,
+        "offset": 839,
+        "description": "RF tire right carcass temperature"
+    },
+    "RFwearL": {
+        "type": 4,
+        "count": 1,
+        "offset": 843,
+        "description": "RF tire left percent tread remaining"
+    },
+    "RFwearM": {
+        "type": 4,
+        "count": 1,
+        "offset": 847,
+        "description": "RF tire middle percent tread remaining"
+    },
+    "RFwearR": {
+        "type": 4,
+        "count": 1,
+        "offset": 851,
+        "description": "RF tire right percent tread remaining"
+    },
+    "LFbrakeLinePress": {
+        "type": 4,
+        "count": 1,
+        "offset": 855,
+        "description": "LF brake line pressure"
+    },
+    "LFspeed": {
+        "type": 4,
+        "count": 1,
+        "offset": 859,
+        "description": "LF wheel speed"
+    },
+    "LFpressure": {
+        "type": 4,
+        "count": 1,
+        "offset": 863,
+        "description": "LF tire pressure"
+    },
+    "LFcoldPressure": {
+        "type": 4,
+        "count": 1,
+        "offset": 867,
+        "description": "LF tire cold pressure  as set in the garage"
+    },
+    "LFtempL": {
+        "type": 4,
+        "count": 1,
+        "offset": 871,
+        "description": "LF tire left surface temperature"
+    },
+    "LFtempM": {
+        "type": 4,
+        "count": 1,
+        "offset": 875,
+        "description": "LF tire middle surface temperature"
+    },
+    "LFtempR": {
+        "type": 4,
+        "count": 1,
+        "offset": 879,
+        "description": "LF tire right surface temperature"
+    },
+    "LFtempCL": {
+        "type": 4,
+        "count": 1,
+        "offset": 883,
+        "description": "LF tire left carcass temperature"
+    },
+    "LFtempCM": {
+        "type": 4,
+        "count": 1,
+        "offset": 887,
+        "description": "LF tire middle carcass temperature"
+    },
+    "LFtempCR": {
+        "type": 4,
+        "count": 1,
+        "offset": 891,
+        "description": "LF tire right carcass temperature"
+    },
+    "LFwearL": {
+        "type": 4,
+        "count": 1,
+        "offset": 895,
+        "description": "LF tire left percent tread remaining"
+    },
+    "LFwearM": {
+        "type": 4,
+        "count": 1,
+        "offset": 899,
+        "description": "LF tire middle percent tread remaining"
+    },
+    "LFwearR": {
+        "type": 4,
+        "count": 1,
+        "offset": 903,
+        "description": "LF tire right percent tread remaining"
+    },
+    "RRbrakeLinePress": {
+        "type": 4,
+        "count": 1,
+        "offset": 907,
+        "description": "RR brake line pressure"
+    },
+    "RRspeed": {
+        "type": 4,
+        "count": 1,
+        "offset": 911,
+        "description": "RR wheel speed"
+    },
+    "RRpressure": {
+        "type": 4,
+        "count": 1,
+        "offset": 915,
+        "description": "RR tire pressure"
+    },
+    "RRcoldPressure": {
+        "type": 4,
+        "count": 1,
+        "offset": 919,
+        "description": "RR tire cold pressure  as set in the garage"
+    },
+    "RRtempL": {
+        "type": 4,
+        "count": 1,
+        "offset": 923,
+        "description": "RR tire left surface temperature"
+    },
+    "RRtempM": {
+        "type": 4,
+        "count": 1,
+        "offset": 927,
+        "description": "RR tire middle surface temperature"
+    },
+    "RRtempR": {
+        "type": 4,
+        "count": 1,
+        "offset": 931,
+        "description": "RR tire right surface temperature"
+    },
+    "RRtempCL": {
+        "type": 4,
+        "count": 1,
+        "offset": 935,
+        "description": "RR tire left carcass temperature"
+    },
+    "RRtempCM": {
+        "type": 4,
+        "count": 1,
+        "offset": 939,
+        "description": "RR tire middle carcass temperature"
+    },
+    "RRtempCR": {
+        "type": 4,
+        "count": 1,
+        "offset": 943,
+        "description": "RR tire right carcass temperature"
+    },
+    "RRwearL": {
+        "type": 4,
+        "count": 1,
+        "offset": 947,
+        "description": "RR tire left percent tread remaining"
+    },
+    "RRwearM": {
+        "type": 4,
+        "count": 1,
+        "offset": 951,
+        "description": "RR tire middle percent tread remaining"
+    },
+    "RRwearR": {
+        "type": 4,
+        "count": 1,
+        "offset": 955,
+        "description": "RR tire right percent tread remaining"
+    },
+    "LRbrakeLinePress": {
+        "type": 4,
+        "count": 1,
+        "offset": 959,
+        "description": "LR brake line pressure"
+    },
+    "LRspeed": {
+        "type": 4,
+        "count": 1,
+        "offset": 963,
+        "description": "LR wheel speed"
+    },
+    "LRpressure": {
+        "type": 4,
+        "count": 1,
+        "offset": 967,
+        "description": "LR tire pressure"
+    },
+    "LRcoldPressure": {
+        "type": 4,
+        "count": 1,
+        "offset": 971,
+        "description": "LR tire cold pressure  as set in the garage"
+    },
+    "LRtempL": {
+        "type": 4,
+        "count": 1,
+        "offset": 975,
+        "description": "LR tire left surface temperature"
+    },
+    "LRtempM": {
+        "type": 4,
+        "count": 1,
+        "offset": 979,
+        "description": "LR tire middle surface temperature"
+    },
+    "LRtempR": {
+        "type": 4,
+        "count": 1,
+        "offset": 983,
+        "description": "LR tire right surface temperature"
+    },
+    "LRtempCL": {
+        "type": 4,
+        "count": 1,
+        "offset": 987,
+        "description": "LR tire left carcass temperature"
+    },
+    "LRtempCM": {
+        "type": 4,
+        "count": 1,
+        "offset": 991,
+        "description": "LR tire middle carcass temperature"
+    },
+    "LRtempCR": {
+        "type": 4,
+        "count": 1,
+        "offset": 995,
+        "description": "LR tire right carcass temperature"
+    },
+    "LRwearL": {
+        "type": 4,
+        "count": 1,
+        "offset": 999,
+        "description": "LR tire left percent tread remaining"
+    },
+    "LRwearM": {
+        "type": 4,
+        "count": 1,
+        "offset": 1003,
+        "description": "LR tire middle percent tread remaining"
+    },
+    "LRwearR": {
+        "type": 4,
+        "count": 1,
+        "offset": 1007,
+        "description": "LR tire right percent tread remaining"
+    },
+    "LRshockDefl": {
+        "type": 4,
+        "count": 1,
+        "offset": 1011,
+        "description": "LR shock deflection"
+    },
+    "LRshockVel": {
+        "type": 4,
+        "count": 1,
+        "offset": 1015,
+        "description": "LR shock velocity"
+    },
+    "RRshockDefl": {
+        "type": 4,
+        "count": 1,
+        "offset": 1019,
+        "description": "RR shock deflection"
+    },
+    "RRshockVel": {
+        "type": 4,
+        "count": 1,
+        "offset": 1023,
+        "description": "RR shock velocity"
+    },
+    "LFshockDefl": {
+        "type": 4,
+        "count": 1,
+        "offset": 1027,
+        "description": "LF shock deflection"
+    },
+    "LFshockVel": {
+        "type": 4,
+        "count": 1,
+        "offset": 1031,
+        "description": "LF shock velocity"
+    },
+    "RFshockDefl": {
+        "type": 4,
+        "count": 1,
+        "offset": 1035,
+        "description": "RF shock deflection"
+    },
+    "RFshockVel": {
+        "type": 4,
+        "count": 1,
+        "offset": 1039,
+        "description": "RF shock velocity"
+    },
+    "LFrideHeight": {
+        "type": 4,
+        "count": 1,
+        "offset": 1043,
+        "description": "LF ride height"
+    },
+    "RFrideHeight": {
+        "type": 4,
+        "count": 1,
+        "offset": 1047,
+        "description": "RF ride height"
+    },
+    "LRrideHeight": {
+        "type": 4,
+        "count": 1,
+        "offset": 1051,
+        "description": "LR ride height"
+    },
+    "RRrideHeight": {
+        "type": 4,
+        "count": 1,
+        "offset": 1055,
+        "description": "RR ride height"
+    },
+    "CFSRrideHeight": {
+        "type": 4,
+        "count": 1,
+        "offset": 1059,
+        "description": "Center front splitter ride height"
+    }
+}
